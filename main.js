@@ -17,9 +17,6 @@ function carregarTarefas() {
 }
 
 
-
-salvartarefas()
-
 function criarTarefa(texto){
     if (texto.trim()=="")return
     const tarefa = tarefasTemplates.content.cloneNode(true)
